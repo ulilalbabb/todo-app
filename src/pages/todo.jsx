@@ -1,5 +1,11 @@
-const Todo = () => {
-  return <div>hehe</div>;
-};
+import TodosLayouts from "../Components/Layouts/todosLayouts"
 
-export default Todo;
+const Todo = () => {
+  return(
+    <>
+      <TodosLayouts></TodosLayouts>
+    </>
+  )
+}
+
+export default Todo
